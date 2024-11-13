@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nanum+Pen+Script&display=swap');
+
+body{
+	font-family: 'caveat';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	background-image: url('https://images6.alphacoders.com/134/1344008.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	max-width: 640px;
+	padding: 10px;
+	background-color: #62a0c2a4;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.chiq{
+	padding: 15px;
+	background-color: #33668b;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+label, button{
+	font-size: 1rem;
+	color: white;
+}
+input{
+	width: 90%;
+	padding: 8px;
+	margin: 5px 0px 10px;
+	border: 1px solid #0f3460;
+	border-radius: 4px;
+	background-color: #1b1b2f;
+	color: #ffffff;
+}
+button{
+	width: 100%;
+	padding: 10px;
+	background-color: #66b9e6;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: white;
+	color: #66b9e6;
+}
+.mostrar{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #e3ddde;
+	color: #1a1a2e;
+	border-radius: 4px;
+	text-align: center;
+}
+h1{
+	color: white;
+	text-align: center;
+	text-shadow: 0px 4px 8px;
+	width: 100%;
+	grid-column: span 2;
+}

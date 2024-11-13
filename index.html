@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularios condicionales</title>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>FORMULARIOS CON CONDICIONALES</h1>
+		<div class="chiq">
+			<label for="calificacion">1. Verificacion de calificaciones</label><br>
+			<input type="number" id="calificacion" name="calificacion" placeholder="calificacion (0-100)"><br>
+			<button onclick="calificar()">Verificar</button>
+			<div id="califSalida" class="mostrar"></div>
+		</div>
+		<div class="chiq">
+			<label for="par">2. Numero par o impar <br></label>
+			<input type="number" id="par" name="par" placeholder="Ingresa un numero"><br>
+			<button onclick="parImpar()">Verificar</button>
+			<div id="ParSalida" class="mostrar"></div>
+		</div>
+		<div class="chiq">
+			<label for="descuentos">3. Evaluación de descuentos <br></label>
+			<input type="number" id="descuentos" name="descuentos" placeholder="Valor de la compra"><br>
+			<button onclick="descuento()">Calcular</button>
+			<div id="calcSalida" class="mostrar"></div>
+		</div>
+		<div class="chiq">
+			<label for="adivina">4. Juego de adivinanzas</label><br>
+			<input type="number" id="adivina" name="adivina" placeholder="Adivina un numero (1-10)"><br>
+			<button onclick="adivinanza()">Intentar</button>
+			<div id="AdivSalida" class="mostrar"></div>
+		</div>
+		<footer>
+			&copy;Todos los derechos reservados Ldarkrai&TRADE;
+		</footer>
+	</div>
+
+</body>
+</html>
